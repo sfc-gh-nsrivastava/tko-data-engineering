@@ -16,6 +16,9 @@ Last Updated: 1/1/2023
 -- ----------------------------------------------------------------------------
 -- Step #2: Create the account level objects
 -- ----------------------------------------------------------------------------
+
+
+select current_account();
 USE ROLE ACCOUNTADMIN;
 
 -- Roles
